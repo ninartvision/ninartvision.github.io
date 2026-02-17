@@ -35,22 +35,22 @@ document.addEventListener("DOMContentLoaded", () => {
       contactCTA: "Contact",
       services: { title: "Services", overview: "Overview of services offered. Explore each area to learn more." },
       simple: {
-        title: "Simple Website",
-        hero: "One-page websites for small businesses or personal projects.",
+        title: "Website",
+        hero: "Websites for businesses or personal projects",
         description: "Fast, responsive one-page sites suitable for small businesses and portfolios.",
         features: ["Responsive layout","SEO-friendly markup","Fast load times","Easy updates"],
         cta: "Contact"
       },
       medium: {
-        title: "Medium Website",
-        hero: "Multi-section websites with portfolio and contact form.",
+        title: "SEO Optimization",
+        hero: "Optimization and strategy for your business.",
         description: "Multi-page sites with content sections, galleries and contact flows.",
         features: ["CMS ready","Contact forms","Portfolio pages","Performance optimizations"],
         cta: "Contact"
       },
       advanced: {
-        title: "Advanced Website",
-        hero: "Custom solutions with backend and advanced functionality.",
+        title: "Video Editing",
+        hero: "All Types of Video Editing.",
         description: "Complex web apps, e-commerce, integrations and custom backend work.",
         features: ["API integrations","Payment gateways","Admin dashboards","Scalable architecture"],
         cta: "Contact"
