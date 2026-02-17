@@ -1,0 +1,206 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  z-index: 1000;
+}
+
+body {
+  padding-top: 80px;
+}
+
+
+/* ---------- HERO ---------- */
+.hero-earth {
+  position: relative;
+  background: url("../images/earth.png") center top / cover no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  padding: 140px 20px 120px;
+}
+
+/* HERO OVERLAY */
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.6),
+    rgba(0,0,0,0.85)
+  );
+  z-index: 1;
+}
+
+.hero-earth .container {
+  position: relative;
+  z-index: 2;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hero-earth h1 {
+  font-size: clamp(28px, 4vw, 44px);
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.hero-earth p {
+  font-size: 16px;
+  color: #f8f7f7;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+/* ---------- SERVICES SECTION CLEAN ---------- */
+
+.services-blog {
+  background: #070707;
+  padding: 40px 20px 80px; /* მცირე top spacing */
+}
+
+
+.services-blog .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Title */
+.services-blog h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #8fc2e4;
+  margin-bottom: 20px;
+}
+
+/* Subtitle */
+.section-text {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 60px;
+  color: #fdfdfd;
+  line-height: 1.7;
+}
+
+/* Services Grid */
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 40px;
+}
+
+
+/* ---------- PROCESS GRID ---------- */
+.process-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.process-item {
+  background: rgba(255,255,255,0.04);
+  padding: 30px;
+  border-radius: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.process-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 24px rgba(140,80,255,0.18);
+}
+
+.process-item h4 {
+  color: #c9a94f;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.process-item p {
+  color: #ffffff;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* ---------- DESCRIPTION BLOCK ---------- */
+.service-description,
+.faq-section {
+  margin: 80px auto 0 auto;
+  max-width: 800px;
+  padding: 40px;
+  background: rgba(255,255,255,0.03);
+  border-radius: 18px;
+  backdrop-filter: blur(8px);
+}
+
+.info-title {
+  font-size: 22px;
+  margin-bottom: 18px;
+  color: #fafafa;
+}
+
+.service-description p {
+  color: #ffffff;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+/* ---------- FAQ ---------- */
+.faq-item {
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  margin-bottom: 12px;
+}
+
+.faq-question {
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: #c9a94f;
+  font-size: 16px;
+  text-align: left;
+  padding: 16px 0;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.35s ease;
+  color: #fffbfb;
+}
+
+.faq-item.active .faq-answer {
+  max-height: 200px;
+  padding-bottom: 10px;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 900px) {
+  .service-description,
+  .faq-section {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .process-grid {
+    gap: 18px;
+  }
+  .service-description,
+  .faq-section {
+    padding: 24px;
+  }
+  .services-blog {
+    padding: 40px 10px 40px 10px;
+    min-height: 40vh;
+  }
+  .section-title,
+  .services-blog h1 {
+    font-size: 1.4rem;
+  }
+}

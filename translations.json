@@ -1,0 +1,188 @@
+{
+  "en": {
+    "nav": { "home": "Home", "about": "About", "services": "Services", "portfolio": "Portfolio", "contact": "Contact" },
+    "footer": { "copyright": "© 2026 WebStudio. All rights reserved." },
+    "logo": { "alt": "Ninart Vision logo" },
+    "icon": { "about": "About Me", "projects": "Projects" },
+    "contactCTA": "Contact",
+    "services": { "title": "Services", "overview": "Overview of services offered. Explore each area to learn more." },
+    "simple": {
+      "title": "Simple Website",
+      "hero": "One-page websites for small businesses or personal projects.",
+      "featuresTitle": "Features",
+      "description": "Fast, responsive one-page sites suitable for small businesses and portfolios.",
+      "features": ["Responsive layout", "SEO-friendly markup", "Fast load times", "Easy updates"],
+      "cta": "Contact"
+    },
+    "medium": {
+      "title": "Medium Website",
+      "hero": "Multi-section websites with portfolio and contact form.",
+      "featuresTitle": "Features",
+      "description": "Multi-page sites with content sections, galleries and contact flows.",
+      "features": ["CMS ready", "Contact forms", "Portfolio pages", "Performance optimizations"],
+      "cta": "Contact"
+    },
+    "advanced": {
+      "title": "Advanced Website",
+      "hero": "Custom solutions with backend and advanced functionality.",
+      "featuresTitle": "Features",
+      "description": "Complex web apps, e-commerce, integrations and custom backend work.",
+      "features": ["API integrations", "Payment gateways", "Admin dashboards", "Scalable architecture"],
+      "cta": "Contact"
+    },
+    "uiux": {
+      "title": "UI/UX Design",
+      "hero": "User-centered interfaces that convert.",
+      "featuresTitle": "Features",
+      "description": "Research-driven designs focused on usability and conversion.",
+      "features": ["User research", "Wireframes & prototypes", "High-fidelity UI", "Design handoff"],
+      "cta": "Contact"
+    },
+    "seo": {
+      "title": "SEO Optimization",
+      "hero": "Improve visibility and organic traffic.",
+      "featuresTitle": "Features",
+      "description": "Technical SEO, on-page optimization and structured data.",
+      "features": ["Technical audits", "Content recommendations", "Performance tuning", "Rich snippets"],
+      "cta": "Contact"
+    },
+    "analytics": {
+      "title": "Analytics & Ads",
+      "hero": "Data-driven campaigns and analytics setup.",
+      "featuresTitle": "Features",
+      "description": "Tracking, dashboards and paid media strategy to grow your business.",
+      "features": ["Analytics setup", "Conversion tracking", "Ad campaigns", "Reporting"],
+      "cta": "Contact"
+    }
+    ,
+    "learnMore": "Learn More",
+    "meta": { "title": "Web Developer Portfolio" },
+    "aboutTitle": "About Me",
+    "aboutIntro": "I'm Nini Mzhavia — a Full Digital Support specialist. I provide end-to-end digital services for small and medium businesses.",
+    "service1": "Website development",
+    "service2": "UI/UX design",
+    "service3": "Logo design",
+    "service4": "Google Analytics setup",
+    "service5": "SEO optimization",
+    "service6": "Social media setup",
+    "service7": "Meta & Ads Manager campaigns",
+    "service8": "Video editing",
+    "portfolio": {
+      "title": "Portfolio",
+      "lead": "Showcase of selected projects.",
+      "project1": { "title": "Project One", "desc": "Landing page" },
+      "project2": { "title": "Project Two", "desc": "Business website" },
+      "project3": { "title": "Project Three", "desc": "Portfolio website" }
+    },
+    "hero1": "Full Digital",
+    "hero2": "Management",
+    "hero3": "for Small",
+    "hero4": "Businesses",
+    "heroText": "Modern digital solutions — zero monthly payments",
+    "hero": { "about": "About Me", "projects": "Projects", "calcCTA": "Project cost" },
+    "calc": {
+      "title": "Calculate project cost",
+      "step1": "Select project type",
+      "types": { "website": "Website Development", "logo": "Logo Design", "social": "Social Media Setup" },
+      "websiteCategories": { "onepage": "One-page website", "info": "Informational website", "business": "Business website", "ecommerce": "E-commerce website" },
+      "sizes": { "small": "Small", "medium": "Medium", "large": "Large" },
+      "features": { "seo": "SEO optimization", "multi": "Multilingual", "custom": "Custom design", "admin": "Admin panel", "booking": "Booking system", "payment": "Payment integration" },
+      "summary": "Summary",
+      "estimated": "Estimated total",
+      "cta": "Contact / Start Project"
+    }
+  },
+  "ka": {
+    "nav": { "home": "მთავარი", "about": "ჩემ შესახებ", "services": "სერვისები", "portfolio": "პორტფოლიო", "contact": "კონტაქტი" },
+    "footer": { "copyright": "© 2026 WebStudio. ყველა უფლება დაცულია." },
+    "logo": { "alt": "Ninart Vision ლოგო" },
+    "icon": { "about": "ჩემ შესახებ", "projects": "პროექტები" },
+    "contactCTA": "კონტაქტი",
+    "services": { "title": "სერვისები", "overview": "სერვისების მიმოხილვა. დაათვალიერეთ ყველა სფერო, რომ გაიგოთ მეტი." },
+    "simple": {
+      "title": "Simple Website",
+      "hero": "ერთი გვერდიანი ვებსაიტები მცირე ბიზნესებისთვის ან პირადი პროექტებისთვის.",
+      "featuresTitle": "მახასიათებლები",
+      "description": "სწრაფი, საპასუხო ერთი გვერდიანი საიტები მცირე ბიზნესებისთვის და პორტფოლიოებისთვის.",
+      "features": ["საპასუხო დიზაინი", "SEO-მიმზიდველი მარკაპი", "სწრაფი დატვირთვა", "მსუბუქი განახლება"],
+      "cta": "დაგვიკავშირდი"
+    },
+    "medium": {
+      "title": "Medium Website",
+      "hero": "მრავალფენოვანი საიტები პორტფოლიოსა და კონტაქტის ფორმით.",
+      "featuresTitle": "მახასიათებლები",
+      "description": "მრავალ გვერდიანი საიტები კონტენტით, გალერეითა და კონტაქტის ფუნქციებით.",
+      "features": ["CMS მზად", "კონტაქტის ფორმები", "პორტფოლიო გვერდები", "ეფექტურობის ოპტიმიზაცია"],
+      "cta": "დაგვიკავშირდი"
+    },
+    "advanced": {
+      "title": "Advanced Website",
+      "hero": "პერსონალიზებული გადაწყვეტილებები ბექენდით და მოწინავე ფუნქციონალით.",
+      "featuresTitle": "მახასიათებლები",
+      "description": "გახსნილი ვებაპლიკაციები, ელექტრონული კომერცია და ინტეგრაციები.",
+      "features": ["API ინტეგრაციები", "გადახდის შერწყმა", "ადმინ პანელები", "მოქნილი არქიტექტურა"],
+      "cta": "დაგვიკავშირდი"
+    },
+    "uiux": {
+      "title": "UI/UX დიზაინი",
+      "hero": "მომხმარებელზე ორიენტირებული ინტერფეისები რომ აქციონ.",
+      "featuresTitle": "მახასიათებლები",
+      "description": "საოცნებო დიზაინი მომხმარებლის გამოცდილებაზე გათვლით.",
+      "features": ["მომხმარებლის კვლევა", "უაირეფრეიმი და პროტოტიპი", "უზუსტესი UI", "დიზაინის გადაცემა"],
+      "cta": "დაგვიკავშირდი"
+    },
+    "seo": {
+      "title": "SEO ოპტიმიზაცია",
+      "hero": "ვერიფიკაცია და ორგანული ტრაფიკის ზრდა.",
+      "featuresTitle": "მახასიათებლები",
+      "description": "ტექნიკური SEO, გვერდზე ოპტიმიზაცია და სტრუქტურირებული მონაცემები.",
+      "features": ["ტექნიკური აუდიტი", "კონტენტის რეკომენდაციები", "ეფექტურობის ოპტიმიზაცია", "ბრძნული ნიშანი"],
+      "cta": "დაგვიკავშირდი"
+    },
+    "analytics": {
+      "title": "ანალიტიკა და რეკლამა",
+      "hero": "მონაცემებზე დაფუძნებული კამპანიები და ანალიტიკის დაყენება.",
+      "featuresTitle": "მახასიათებლები",
+      "description": "ტრეკინგი, დაფები და გადახდის მედია სტრატეგია ბიზნესის ზრდისთვის.",
+      "features": ["ანალიტიკის დაყენება", "კონვერსიის ტრექინგი", "რეკლამული კამპანიები", "რეპორტინგი"],
+      "cta": "დაგვიკავშირდი"
+    }
+    ,
+    "learnMore": "Learn More",
+    "meta": { "title": "ვებ დეველოპერის პორტფოლიო" },
+    "aboutTitle": "ჩემ შესახებ",
+    "aboutIntro": "მე ვარ ნინი მჟავია — Full Digital Support სპეციალისტი. ვთავაზობ სრულ ციფრულ მომსახურებას მცირე და საშუალო ბიზნესებისთვის.",
+    "service1": "ვებსაიტის შექმნა",
+    "service2": "UI/UX დიზაინი",
+    "service3": "ლოგოს შექმნა",
+    "service4": "Google Analytics ინტეგრაცია",
+    "service5": "SEO ოპტიმიზაცია",
+    "service6": "სოციალური ქსელების გამართვა",
+    "service7": "Meta & Ads Manager რეკლამები",
+    "service8": "ვიდეო მონტაჟი",
+    "portfolio": {
+      "title": "პორტფოლიო",
+      "lead": "არჩეული პროექტების ჩვენება.",
+      "project1": { "title": "პროექტი ერთი", "desc": "ლენდინგ გვერდი" },
+      "project2": { "title": "პროექტი ორი", "desc": "ბიზნეს საიტი" },
+      "project3": { "title": "პროექტი სამი", "desc": "პორტფოლიო საიტი" }
+    },
+    "hero1": "მცირე ბიზნესის",
+    "hero2": "სრული ციფრული",
+    "hero3": "მართვა",
+    "hero4": "Digital Support",
+    "heroText": "თანამედროვე გადაწყვეტილებები ყოველთვიური გადასახადის გარეშე",
+    "hero": { "about": "ჩემ შესახებ", "projects": "პროექტები", "calcCTA": "პროექტის ღირებულება" },
+    "calc": {
+      "title": "გამოთვალე პროექტის ღირებულება",
+      "step1": "აირჩიე პროექტის ტიპი",
+      "types": { "website": "ვებსაიტის განვითარება", "logo": "ლოგოს დიზაინი", "social": "სოციალური ქსელების გამართვა" },
+      "websiteCategories": { "onepage": "ერთი გვერდი", "info": "ინფორმაციული საიტი", "business": "ბიზნეს საიტი", "ecommerce": "ელ-კომერცია" },
+      "sizes": { "small": "პატარა", "medium": "საშუალო", "large": "დიდი" },
+      "features": { "seo": "SEO ოპტიმიზაცია", "multi": "ენა (მრავალენოვანი)", "custom": "დიზაინი", "admin": "ადმინ პანელი", "booking": "ბუკინგი", "payment": "გადახდის ინტეგრაცია" },
+      "summary": "შეჯამება",
+      "estimated": "ღირებულება",
+      "cta": "დაგვიკავშირდი / დაიწყე პროექტი"
+    }
+  }
+}

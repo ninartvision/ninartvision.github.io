@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio — WebStudio</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="stylesheet" href="../css/portfolio.css">
+
+  <meta name="description" content="Portfolio of recent projects." />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo"><img src="images/logo.png" alt="Ninart Vision logo" data-alt-key="logo.alt"></a>
+      <ul id="navLinks" class="nav-links">
+        <li><a href="index.html"><span data-key="nav.home">Home</span></a></li>
+        <li><a href="about.html"><span data-key="nav.about">About</span></a></li>
+        <li><a href="services.html"><span data-key="nav.services">Services</span></a></li>
+        <li><a href="portfolio.html"><span data-key="nav.portfolio">Portfolio</span></a></li>
+        <li><a href="contact.html"><span data-key="nav.contact">Contact</span></a></li>
+      </ul>
+      <div class="nav-controls">
+        <div class="lang-dropdown">
+          <button class="lang-current" id="langToggle">
+            <img src="images/georgia.png" alt="GE">
+            <span class="lang-text">KA</span>
+            <span class="arrow">▾</span>
+          </button>
+          <ul class="lang-menu" id="langMenu" role="menu" aria-label="Language menu">
+            <li data-lang="ka" role="menuitem"><img src="images/georgia.png" alt="" aria-hidden="true"> KA</li>
+            <li data-lang="en" role="menuitem"><img src="images/america.png" alt="" aria-hidden="true"> EN</li>
+          </ul>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navLinks">
+          <span></span><span></span><span></span>
+        </button>
+        
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h1 data-key="portfolio.title">Portfolio</h1>
+        <p class="section-text" data-key="portfolio.lead">Showcase of selected projects.</p>
+    <div class="portfolio-categories">
+
+  <a href="portfolio/web.html" class="category-card web-card">
+    <h2>ვებ გვერდები</h2>
+  </a>
+
+  <a href="portfolio/branding.html" class="category-card branding-card">
+    <h2>ბრენდინგი</h2>
+  </a>
+
+  <a href="portfolio/video.html" class="category-card video-card">
+    <h2>ვიდეო რგოლები</h2>
+  </a>
+
+  <a href="portfolio/editing.html" class="category-card editing-card">
+    <h2>ვიდეო მონტაჟი</h2>
+  </a>
+
+</div>
+
+
+      </div>
+      
+    </section>
+  </main>
+
+  <footer>
+    <p data-key="footer.copyright">© 2026 WebStudio. All rights reserved.</p>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>

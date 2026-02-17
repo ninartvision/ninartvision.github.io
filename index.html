@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-key="meta.title">Web Developer Portfolio</title>
+
+  <meta name="description" content="Web developer creating fast, custom-coded websites with no monthly fees." />
+  <meta name="keywords" content="web developer, portfolio, custom websites" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="images/favicon.png" />
+
+
+</head>
+<body>
+
+
+  <!-- STAR BACKGROUND (ONLY ONCE) -->
+  <div id="particles-js"></div>
+
+  <!-- HEADER -->
+  <header>
+    <nav>
+      <a href="/" class="logo" aria-label="Home">
+  <img src="images/logo.png" alt="Ninart Vision logo" data-alt-key="logo.alt">
+</a>
+
+
+
+  <ul id="navLinks" class="nav-links">
+  <li><a href="index.html"><span data-key="nav.home">Home</span></a></li>
+  <li><a href="about.html"><span data-key="nav.about">About</span></a></li>
+  <li><a href="services.html"><span data-key="nav.services">Services</span></a></li>
+  <li><a href="portfolio.html"><span data-key="nav.portfolio">Portfolio</span></a></li>
+  <li><a href="contact.html"><span data-key="nav.contact">Contact</span></a></li>
+</ul>
+
+
+
+      <div class="nav-controls">
+        <div class="lang-dropdown">
+  <button class="lang-current" id="langToggle">
+    <img src="images/georgia.png" alt="" aria-hidden="true">
+    <span class="lang-text">KA</span>
+    <span class="arrow">▾</span>
+  </button>
+
+        <ul class="lang-menu" id="langMenu" role="menu" aria-label="Language menu">
+      <li data-lang="ka" role="menuitem">
+      <img src="images/georgia.png" alt="" aria-hidden="true">
+      KA
+    </li>
+    <li data-lang="en" role="menuitem">
+      <img src="images/america.png" alt="" aria-hidden="true">
+      EN
+    </li>
+  </ul>
+</div>
+
+
+
+
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navLinks">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="hero-modern">
+  <div class="hero-inner hero-centered">
+
+
+   <h1 class="hero-title hero-stack">
+
+  <span class="line-1 purple" data-key="hero1">
+    მცირე ბიზნესის
+  </span>
+
+  <span class="line-2" data-key="hero2">
+    სრული ციფრული
+  </span>
+
+  <span class="line-3 cyan" data-key="hero3">
+    მართვა
+  </span>
+
+  <span class="line-4" data-key="hero4">
+    Digital Support
+  </span>
+
+</h1>
+
+
+
+<p class="hero-text" data-key="heroText">თანამედროვე გადაწყვეტილებები ყოველთვიური გადასახადის გარეშე.</p>
+
+  <div class="hero-buttons">
+  <a href="about.html" class="hero-link primary">
+
+    <img src="images/icon1.png" alt="About Me" class="hero-icon" data-alt-key="icon.about">
+    <span data-key="hero.about">About Me</span>
+  </a>
+
+  <a href="portfolio.html" class="hero-link secondary">
+    <img src="images/icon.png" alt="Projects" class="hero-icon" data-alt-key="icon.projects">
+    <span data-key="hero.projects">Projects</span>
+  </a>
+  
+    <button class="hero-link tertiary calc-open" id="openCalculator" data-aria-key="calc.open" aria-label="გამოითვალე პროექტის ღირებულება">
+      <span class="hero-btn-text" data-key="hero.calcCTA">პროექტის ღირებულება</span>
+      <span class="hero-arrow" aria-hidden="true">➜</span>
+    </button>
+</div>
+
+  </div>
+</section>
+
+
+  <!-- SERVICES -->
+  <section id="services" class="section dark reveal">
+    <div class="container">
+      <h2 data-key="services.title">Services</h2>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <h3 data-key="simple.title">Simple Website</h3>
+          <p data-key="simple.description">One-page websites for small businesses or personal projects.</p>
+        </div>
+
+        <div class="service-card">
+          <h3 data-key="medium.title">Medium Website</h3>
+          <p data-key="medium.description">Multi-section websites with portfolio and contact form.</p>
+        </div>
+
+        <div class="service-card">
+          <h3 data-key="advanced.title">Advanced Website</h3>
+          <p data-key="advanced.description">Custom solutions with backend and advanced functionality.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio" class="section reveal">
+    <div class="container">
+      <h2 data-key="portfolio.title">Portfolio</h2>
+
+      <div class="portfolio-grid">
+        <div class="portfolio-card" style="background-image:url('images/project1.jpg')">
+          <div class="overlay">
+            <h3 data-key="portfolio.project1.title">Project One</h3>
+            <p data-key="portfolio.project1.desc">Landing page</p>
+          </div>
+        </div>
+
+        <div class="portfolio-card" style="background-image:url('images/project2.jpg')">
+          <div class="overlay">
+            <h3 data-key="portfolio.project2.title">Project Two</h3>
+            <p data-key="portfolio.project2.desc">Business website</p>
+          </div>
+        </div>
+
+        <div class="portfolio-card" style="background-image:url('images/project3.jpg')">
+          <div class="overlay">
+            <h3 data-key="portfolio.project3.title">Project Three</h3>
+            <p data-key="portfolio.project3.desc">Portfolio website</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section dark reveal">
+    <div class="container">
+      <h2 data-key="contact.title">Contact</h2>
+      <p class="section-text" data-key="contact.lead">
+        Interested in working together? Let’s build something great.
+      </p>
+      <a href="mailto:ninimzhavia9@gmail.com" class="contact-btn" data-key="contactCTA">Get in touch</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <!-- CALCULATOR MODAL -->
+  <div id="calcModal" class="calc-modal" aria-hidden="true" role="dialog" aria-labelledby="calcTitle">
+    <div class="calc-panel" role="document">
+        <div class="calc-header">
+        <div class="calc-title" id="calcTitle" data-key="calc.title">გამოთვალე პროექტის ღირებულება</div>
+        <button class="calc-close" id="calcClose" data-aria-key="calc.close" aria-label="Close calculator">✕</button>
+      </div>
+
+      <div class="panel-grid">
+        <div class="calc-form">
+          <div class="calc-step" data-step="1">
+            <h4 data-key="calc.step1">აირჩიე პროექტის ტიპი</h4>
+            <div class="options" id="projTypes">
+              <label class="option" data-value="website">
+                <input type="radio" name="projType" value="website"> <span data-key="calc.types.website">Website Development</span>
+              </label>
+              <label class="option" data-value="logo">
+                <input type="radio" name="projType" value="logo"> <span data-key="calc.types.logo">Logo Design</span>
+              </label>
+              <label class="option" data-value="social">
+                <input type="radio" name="projType" value="social"> <span data-key="calc.types.social">Social Media Setup</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="calc-step" data-step="2" id="websiteCategoriesWrap" style="display:none">
+            <h4 data-key="calc.websiteCategoriesTitle">Category</h4>
+            <div class="options" id="websiteCategories">
+              <label class="option" data-value="onepage"><input type="radio" name="websiteCategory" value="onepage"> <span data-key="calc.websiteCategories.onepage">One-page website</span></label>
+              <label class="option" data-value="info"><input type="radio" name="websiteCategory" value="info"> <span data-key="calc.websiteCategories.info">Informational website</span></label>
+              <label class="option" data-value="business"><input type="radio" name="websiteCategory" value="business"> <span data-key="calc.websiteCategories.business">Business website</span></label>
+              <label class="option" data-value="ecommerce"><input type="radio" name="websiteCategory" value="ecommerce"> <span data-key="calc.websiteCategories.ecommerce">E-commerce website</span></label>
+            </div>
+          </div>
+
+          <div class="calc-step" data-step="3">
+            <h4 data-key="calc.sizesTitle">Size</h4>
+            <div class="options" id="sizeOptions">
+              <label class="option" data-value="small"><input type="radio" name="size" value="small"> <span data-key="calc.sizes.small">Small</span></label>
+              <label class="option" data-value="medium"><input type="radio" name="size" value="medium" checked> <span data-key="calc.sizes.medium">Medium</span></label>
+              <label class="option" data-value="large"><input type="radio" name="size" value="large"> <span data-key="calc.sizes.large">Large</span></label>
+            </div>
+          </div>
+
+          <div class="calc-step" data-step="4">
+            <h4 data-key="calc.featuresTitle">Additional features</h4>
+            <div class="feature-row"><input type="checkbox" id="feat-seo" data-feature="seo"> <label for="feat-seo" data-key="calc.features.seo">SEO optimization</label></div>
+            <div class="feature-row"><input type="checkbox" id="feat-multi" data-feature="multi"> <label for="feat-multi" data-key="calc.features.multi">Multilingual</label></div>
+            <div class="feature-row"><input type="checkbox" id="feat-custom" data-feature="custom"> <label for="feat-custom" data-key="calc.features.custom">Custom design</label></div>
+            <div class="feature-row"><input type="checkbox" id="feat-admin" data-feature="admin"> <label for="feat-admin" data-key="calc.features.admin">Admin panel</label></div>
+            <div class="feature-row"><input type="checkbox" id="feat-booking" data-feature="booking"> <label for="feat-booking" data-key="calc.features.booking">Booking system</label></div>
+            <div class="feature-row"><input type="checkbox" id="feat-payment" data-feature="payment"> <label for="feat-payment" data-key="calc.features.payment">Payment integration</label></div>
+          </div>
+        </div>
+
+        <aside>
+          <div class="calc-summary">
+            <div class="price" id="calcPrice">0₾</div>
+            <div class="summary-list" id="calcSummary">
+              <strong data-key="calc.summary">Summary</strong>
+              <ul id="summaryItems"></ul>
+            </div>
+
+            <div class="calc-cta">
+              <a href="contact.html" class="btn primary" id="calcContact" data-key="calc.cta">Contact / Start Project</a>
+              <button class="btn ghost" id="calcReset" data-key="calc.reset">Reset</button>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p data-key="footer.copyright">© 2026 WebStudio. All rights reserved.</p>
+  </footer>
+
+      <!-- SCRIPTS -->
+  <script src="js/particles.min.js" defer></script>
+  <script src="main.js" defer></script>
+
+</body>
+</html>
+

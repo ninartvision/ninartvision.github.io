@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Me</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!-- Icons -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- BACKGROUND -->
+<div id="background"></div>
+
+<!-- HEADER -->
+<header>
+  <nav>
+    <a href="index.html" class="logo">
+      <img src="images/logo.png" alt="Ninart Vision logo">
+    </a>
+
+    <ul id="navLinks" class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="nav-controls">
+      <div class="lang-dropdown">
+        <button class="lang-current" id="langToggle">
+          <img src="images/georgia.png" alt="GE">
+          <span class="lang-text">KA</span>
+          <span class="arrow">▾</span>
+        </button>
+
+        <ul class="lang-menu" id="langMenu">
+          <li data-lang="ka">
+            <img src="images/georgia.png" alt=""> KA
+          </li>
+          <li data-lang="en">
+            <img src="images/america.png" alt=""> EN
+          </li>
+        </ul>
+      </div>
+
+      <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+  </nav>
+</header>
+
+<!-- MAIN -->
+<main>
+
+  <section id="about" class="about-content">
+    <h1 data-key="aboutTitle">About Me</h1>
+
+    <p class="about-intro" data-key="aboutIntro">
+      მე ვარ ნინი მჟავია — Full Digital Support სპეციალისტი.
+      ვთავაზობ სრულ ციფრულ მომსახურებას მცირე და საშუალო ბიზნესებისთვის:
+    </p>
+
+    <ul class="about-list">
+      <li data-key="aboutList1">ვებსაიტის შექმნა</li>
+      <li data-key="aboutList2">UI/UX დიზაინი</li>
+      <li data-key="aboutList3">ლოგოს შექმნა</li>
+      <li data-key="aboutList4">Google Analytics ინტეგრაცია</li>
+      <li data-key="aboutList5">SEO ოპტიმიზაცია</li>
+      <li data-key="aboutList6">სოციალური ქსელების გამართვა</li>
+      <li data-key="aboutList7">Meta & Ads Manager რეკლამები</li>
+      <li data-key="aboutList8">ვიდეო მონტაჟი</li>
+    </ul>
+
+    <p class="about-end" data-key="aboutEnd">
+      ჩემი მიზანია თითოეული პროექტი იყოს სტრატეგიულად დაგეგმილი,
+      ვიზუალურად მიმზიდველი და ტექნიკურად სრულყოფილი.
+    </p>
+  </section>
+
+  <section>
+    <div class="contact-card">
+      <h2 class="contact-name">Let’s Work Together</h2>
+
+      <div class="contact-info">
+        <p><strong>Phone:</strong>
+          <a href="tel:+995579388833">+995 579 38 88 33</a>
+        </p>
+        <p><strong>Email:</strong>
+          <a href="mailto:ninimzhavia9@gmail.com">
+            ninimzhavia9@gmail.com
+          </a>
+        </p>
+      </div>
+
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/995579388833"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- VANTA CLOUDS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.clouds.min.js"></script>
+
+<script>
+VANTA.CLOUDS({
+  el: "#background",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  skyColor: 0x0a0f1c,
+  cloudColor: 0x1c2333,
+  cloudShadowColor: 0x000000,
+  sunColor: 0x111111,
+  sunGlareColor: 0x111111,
+  sunlightColor: 0x222222,
+  speed: 0.6
+});
+</script>
+
+<!-- MAIN JS (ეს აუცილებელია ენის dropdown-ისთვის) -->
+<script src="main.js" defer></script>
+
+</body>
+</html>

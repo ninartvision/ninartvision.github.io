@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — WebStudio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <meta name="description" content="Contact WebStudio — let's build something together." />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo"><img src="images/logo.png" alt="Ninart Vision logo" data-alt-key="logo.alt"></a>
+      <ul id="navLinks" class="nav-links">
+        <li><a href="index.html"><span data-key="nav.home">Home</span></a></li>
+        <li><a href="about.html"><span data-key="nav.about">About</span></a></li>
+        <li><a href="services.html"><span data-key="nav.services">Services</span></a></li>
+        <li><a href="portfolio.html"><span data-key="nav.portfolio">Portfolio</span></a></li>
+        <li><a href="contact.html"><span data-key="nav.contact">Contact</span></a></li>
+      </ul>
+      <div class="nav-controls">
+        <div class="lang-dropdown">
+          <button class="lang-current" id="langToggle">
+            <img src="images/georgia.png" alt="GE">
+            <span class="lang-text">KA</span>
+            <span class="arrow">▾</span>
+          </button>
+          <ul class="lang-menu" id="langMenu" role="menu" aria-label="Language menu">
+            <li data-lang="ka" role="menuitem"><img src="images/georgia.png" alt="" aria-hidden="true"> KA</li>
+            <li data-lang="en" role="menuitem"><img src="images/america.png" alt="" aria-hidden="true"> EN</li>
+          </ul>
+        </div>
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navLinks">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+  <section class="section dark">
+    <div class="container contact-card">
+
+      <h1 class="contact-name">Nini Mzhavia</h1>
+
+      <p class="contact-sub">
+        Let’s build something aesthetic and powerful together.
+      </p>
+
+      <div class="contact-info">
+        <p>
+          <span class="label">Phone:</span>
+          <a href="tel:+995579388833">+995 579 38 88 33</a>
+        </p>
+
+        <p>
+          <span class="label">Email:</span>
+          <a href="mailto:ninimzhavia9@gmail.com">
+            ninimzhavia9@gmail.com
+          </a>
+        </p>
+      </div>
+
+      <div class="social-links">
+        <a href="#" target="_blank" aria-label="Facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <a href="#" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="https://wa.me/995579388833" target="_blank" aria-label="WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+
+  <footer>
+    <p data-key="footer.copyright">© 2026 WebStudio. All rights reserved.</p>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
