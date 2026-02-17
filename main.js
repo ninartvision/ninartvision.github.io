@@ -725,12 +725,38 @@ if (particlesContainer && typeof particlesJS !== "undefined") {
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeCalculator(); });
 
 });
-/* ================= FAQ TOGGLE ================= */
+document.addEventListener("DOMContentLoaded", function () {
 
-document.querySelectorAll(".faq-item").forEach(item => {
-  const question = item.querySelector(".faq-question");
+  /* ================= FAQ TOGGLE ================= */
 
-  question.addEventListener("click", () => {
-    item.classList.toggle("active");
+  document.querySelectorAll(".faq-item").forEach(item => {
+    const question = item.querySelector(".faq-question");
+
+    if (question) {
+      question.addEventListener("click", () => {
+        item.classList.toggle("active");
+      });
+    }
   });
+
+
+  /* ================= WHATSAPP WIDGET ================= */
+
+  const popup = document.getElementById("waPopup");
+  const floatBtn = document.getElementById("waFloat");
+  const closeBtn = document.getElementById("waClose");
+
+  if (floatBtn && popup) {
+    floatBtn.addEventListener("click", function () {
+      popup.style.display =
+        popup.style.display === "block" ? "none" : "block";
+    });
+  }
+
+  if (closeBtn && popup) {
+    closeBtn.addEventListener("click", function () {
+      popup.style.display = "none";
+    });
+  }
+
 });

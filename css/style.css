@@ -1550,3 +1550,241 @@ header > nav,
   position: relative;
   top: -80px;
 }
+/* ==== FORCE IMAGE FIX ==== */
+
+.code-section {
+  padding: 120px 20px;
+  background: #000;
+  overflow-x: hidden;
+}
+
+.code-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.code-card {
+  flex: 1 1 300px;
+  max-width: 350px;
+}
+
+.code-card img {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  display: block;
+}
+@media (max-width: 768px) {
+  .code-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .code-card {
+    width: 100%;
+    max-width: 420px;
+  }
+}
+.code-section {
+  padding: 140px 20px;
+  background: #000;
+}
+
+.code-wrapper {
+  display: flex;
+  gap: 80px;              /* 🔥 მეტი დაშორება */
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 80px;       /* ზემოდან ჰაერი */
+}
+
+
+
+
+.code-btn {
+  position: relative;
+  flex: 0 1 320px;
+  height: 420px;
+  border-radius: 24px;
+
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: #000;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 25px;
+
+  border: none;
+  box-shadow: none;
+
+  cursor: default; /* აღარ იქნება ხელი */
+}
+
+/* ტექსტი მკვეთრი */
+.code-btn span {
+  color: #d6c28a;
+  font-weight: 500;
+  font-size: 15px;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ===== DESKTOP ===== */
+@media (min-width: 1024px) {
+
+  .code-wrapper {
+    display: flex;
+    justify-content: space-between;  /* აღარ იქნება პატარა შუაში */
+    align-items: flex-start;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 120px auto;
+  }
+
+  .code-btn {
+    flex: 1;
+    height: 520px;   /* 🔥 გავზარდეთ */
+    max-width: 380px;
+  }
+
+  .code-btn span {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .code-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+  }
+
+  .code-btn {
+    width: 100%;
+    max-width: 420px;
+  }
+}
+
+/* =========================
+   SLIDER FIX
+========================= */
+
+.projects-slider > div {
+  display: flex !important;
+}
+
+/* =========================
+   WHATSAPP WIDGET
+========================= */
+
+.wa-widget{
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 99999;
+  font-family: Arial, sans-serif;
+}
+
+/* popup */
+.wa-popup{
+  width: 280px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0,0,0,.25);
+  margin-bottom: 12px;
+  overflow: hidden;
+  display: none;
+}
+
+/* header */
+.wa-header{
+  background: #075E54;
+  color: #fff;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.wa-avatar img{
+  width: 34px;
+  height: 34px;
+}
+
+.wa-title span{
+  font-size: 12px;
+  opacity: .8;
+  display: block;
+}
+
+.wa-close{
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* body */
+.wa-body{
+  padding: 16px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* button */
+.wa-btn{
+  display: block;
+  background: #25D366;
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.wa-float{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+
+  background: rgba(20, 20, 20, 0.85); /* dark glass */
+  backdrop-filter: blur(8px);
+
+  border: 1px solid rgba(214, 194, 138, 0.3); /* subtle gold border */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 10px 30px rgba(0,0,0,0.6),
+    0 0 15px rgba(214,194,138,0.15); /* subtle gold glow */
+
+  transition: all 0.3s ease;
+}
+
+.wa-float:hover{
+  transform: scale(1.08);
+  box-shadow:
+    0 15px 40px rgba(0,0,0,0.7),
+    0 0 25px rgba(214,194,138,0.35);
+}
+
+.wa-float img{
+  width: 26px;
+  height: 26px;
+  filter: brightness(0) invert(1); /* სუფთა თეთრი */
+}
+
+
