@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
       hero4: "Businesses",
       heroText: "Modern digital solutions — zero monthly payments.",
       nav: { home: "Home", about: "About", services: "Services", portfolio: "Portfolio", contact: "Contact" },
-      footer: { copyright: "© 2026 WebStudio. All rights reserved." },
+      footer: { copyright: "© 2026 Ninart Vision. All rights reserved." },
       contactCTA: "Contact",
       services: { title: "Services", overview: "Overview of services offered. Explore each area to learn more." },
       simple: {
@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", () => {
       hero4: "Digital Support",
       heroText: "თანამედროვე გადაწყვეტილებები ყოველთვიური გადასახადის გარეშე",
       nav: { home: "მთავარი", about: "ჩემ შესახებ", services: "სერვისები", portfolio: "პორტფოლიო", contact: "კონტაქტი" },
-      footer: { copyright: "© 2026 WebStudio. ყველა უფლება დაცულია." },
+      footer: { copyright: "© 2026 Ninart Vision. All rights reserved." },
       contactCTA: "კონტაქტი",
       services: { title: "სერვისები", overview: "სერვისების მიმოხილვა. დაათვალიერეთ ყველა სფერო, რომ გაიგოთ მეტი." },
       simple: {
@@ -165,7 +165,7 @@ document.addEventListener("DOMContentLoaded", () => {
         project2: { title: "პროექტი ორი", desc: "ბიზნეს საიტი" },
         project3: { title: "პროექტი სამი", desc: "პორტფოლიო საიტი" }
       },
-      contact: { title: "კონტაქტი", lead: "მრუზვავი ტექსტი — დავაფრიქეთ ანუ." }
+      contact: { title: "", lead: "პროფესიონალური ციფრული გადაწყვეტილებები" }
       ,
       calc: {
         title: "გაანგარიშე პროექტის ღირებულება",
