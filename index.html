@@ -276,10 +276,12 @@
       <div class="wa-avatar">
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WA">
       </div>
+
       <div class="wa-title">
         <strong>Ninart Vision</strong>
         <span>Online</span>
       </div>
+
       <button class="wa-close" id="waClose">×</button>
     </div>
 
@@ -295,6 +297,11 @@
     </a>
   </div>
 
+  <!-- ✅ აქ არის სწორი ადგილი -->
+  <div class="wa-slide-hint" id="waHint">
+    Contact Here <span>→</span>
+  </div>
+
   <button class="wa-float"
           id="waFloat"
           aria-label="WhatsApp chat">
@@ -303,6 +310,27 @@
   </button>
 
 </div>
+<script>
+window.addEventListener("load", function() {
+
+  const hint = document.getElementById("waHint");
+  const btn = document.querySelector(".wa-float");
+
+  // Slide hint
+  if (hint) {
+    setTimeout(() => hint.classList.add("show"), 800);
+    setTimeout(() => hint.classList.remove("show"), 5000);
+  }
+
+  // Shake only first visit
+  if (!localStorage.getItem("waShown") && btn) {
+    btn.classList.add("shake");
+    localStorage.setItem("waShown", "true");
+  }
+
+});
+</script>
+
 
 </body>
 </html>
