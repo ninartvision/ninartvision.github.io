@@ -496,7 +496,7 @@ header > nav {
   gap: 20px;
 }
 .calc-header { display:flex; align-items:center; justify-content:space-between; gap:12px; }
-.calc-title { font-size:1.25rem; font-weight:700;  color: #61b0fa; }
+.calc-title { font-size:1.25rem; font-weight:700;  color: #73b6f5; }
 .calc-close { background:transparent; border:0; color:inherit; font-size:1.1rem; cursor:pointer }
 .calc-step { background: rgba(255,255,255,0.02); padding:14px; border-radius:8px; margin-bottom:12px; }
 .calc-step h4 { 
