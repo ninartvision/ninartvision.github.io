@@ -1158,21 +1158,18 @@ header > nav,
   position: relative;
 }
 
-.hero-title::after {
+.hero-title .line-4::after {
   content: "";
   display: block;
-  width: clamp(70px, 8vw, 100px); /* 70–100px responsive */
-  height: 1.5px; /* thin (1–2px) */
-  margin: 24px auto 0; /* 20–28px spacing */
+  width: clamp(60px, 10vw, 90px);
+  height: 1.5px;
+  margin: 16px auto 0;
   background: linear-gradient(90deg, #C9A94F 0%, #D6C28A 100%);
   border-radius: 2px;
-  box-shadow:
-    0 8px 20px rgba(201,169,79,0.08),
-    0 0 10px rgba(214,194,138,0.06);
-  filter: blur(0.36px); /* soft glow */
-  pointer-events: none;
-  transform: translateZ(0); /* stable rendering */
+  box-shadow: 0 6px 18px rgba(201,169,79,0.08),
+              0 0 8px rgba(201,169,79,0.06);
 }
+
 
 /* Small screens tweak */
 @media (max-width: 420px) {
@@ -1550,6 +1547,7 @@ header > nav,
   position: relative;
   top: -80px;
 }
+
 /* ==== FORCE IMAGE FIX ==== */
 
 .code-section {

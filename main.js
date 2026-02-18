@@ -88,9 +88,9 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     },
     ka: {
-      hero1: "მცირე ბიზნესის",
-      hero2: "სრული ციფრული",
-      hero3: "მართვა",
+      hero1: "ბიზნესის სრული",
+      hero2: "ციფრული განვითარება",
+      hero3: "",
       hero4: "Digital Support",
       heroText: "თანამედროვე გადაწყვეტილებები ყოველთვიური გადასახადის გარეშე",
       nav: { home: "მთავარი", about: "ჩემ შესახებ", services: "სერვისები", portfolio: "პორტფოლიო", contact: "კონტაქტი" },
