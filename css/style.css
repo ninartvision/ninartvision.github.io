@@ -468,12 +468,15 @@ header > nav {
   position: fixed;
   inset: 0;
   display: none;
-  align-items: center;
+  align-items: flex-start;   /* ❗ აღარ იყოს center */
   justify-content: center;
+  padding: 40px 16px;        /* სივრცე ზემოდან */
+  overflow-y: auto;          /* რომ მთლიანმა მოდალმა დაისქროლოს */
   background: rgba(0,0,0,0.6);
   z-index: 1200;
   backdrop-filter: blur(4px);
 }
+
 .calc-modal.open { display: flex; }
 .calc-panel {
   width: 92%;
@@ -537,6 +540,13 @@ header > nav {
 }
 .calc-panel input[type="range"]::-moz-range-track { height:6px; background: rgba(255,255,255,0.06); border-radius:6px }
 .calc-panel input[type="range"]::-moz-range-thumb { width:14px; height:14px; border-radius:50%; background:#C9A94F; box-shadow: 0 4px 10px rgba(201,169,79,0.18); border:2px solid rgba(0,0,0,0.24); }
+@media (max-width:900px){
+
+  .calc-panel{
+    max-height: 85vh;
+  }
+
+}
 
 /* Hover / focus states with subtle gold glow */
 .option:hover {
