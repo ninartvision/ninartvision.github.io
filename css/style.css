@@ -936,7 +936,7 @@ footer {
 .about-list li {
   margin-bottom: 10px;
   font-size: 17px;
-  opacity: 0.95;
+  opacity: 1;
 }
 
 .about-end {
