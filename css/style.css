@@ -1834,3 +1834,37 @@ header > nav,
 .wa-slide-hint:hover span {
   transform: translateX(4px);
 }
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  margin-top: 25px;
+}
+
+.social-icons a {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  font-size: 18px;
+
+  color: #d6c28a;
+
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(4px);
+
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  background: rgba(214, 194, 138, 0.15);
+  color: #ffffff;
+  transform: translateY(-4px);
+}
+.social-icons a {
+  text-decoration: none !important;
+}

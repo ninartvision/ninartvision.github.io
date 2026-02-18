@@ -1,24 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-  /* ================= SMOOTH SCROLL FOR ANCHOR LINKS ================= */
-  document.querySelectorAll('.nav-links a').forEach(link => {
-    link.addEventListener('click', function(e) {
-      const href = this.getAttribute('href');
-      // Intercept links that contain a hash (handles index.html#id, #id, etc.)
-      if (href && href.includes('#')) {
-        const parts = href.split('#');
-        const fragment = parts[1];
-        if (fragment) {
-          const target = document.getElementById(fragment);
-          if (target) {
-            e.preventDefault();
-            target.scrollIntoView({ behavior: 'smooth' });
-          }
-        }
-      }
-      // All other links (e.g., external pages) are not prevented and work normally
-    });
-  });
+  // No navigation interception for menu links. Let browser handle navigation normally.
 
   /* ================= TRANSLATIONS ================= */
 
