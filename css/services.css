@@ -264,3 +264,16 @@ nav {
 .lang-options div:hover {
   background: rgba(255,255,255,0.08);
 }
+.services-list .service-card {
+  text-align: center;
+}
+
+.services-list .service-card p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.services-list .service-card a {
+  display: inline-block;
+  margin: 0 auto;
+}
