@@ -67,6 +67,10 @@
     "service6": "Social media setup",
     "service7": "Meta & Ads Manager campaigns",
     "service8": "Video editing",
+    "aboutTitle": "About Me",
+"aboutIntro": "I'm Nini Mzhavia — a Full Digital Support specialist. I provide end-to-end digital services for small and medium businesses.",
+"aboutEnd": "My goal is for every project to be strategically planned, visually attractive and technically flawless.",
+
     "portfolio": {
       "title": "Portfolio",
       "lead": "Showcase of selected projects.",
@@ -160,6 +164,7 @@
     "service6": "სოციალური ქსელების გამართვა",
     "service7": "Meta & Ads Manager რეკლამები",
     "service8": "ვიდეო მონტაჟი",
+    "aboutEnd": "ჩემი მიზანია თითოეული პროექტი იყოს სტრატეგიულად დაგეგმილი, ვიზუალურად მიმზიდველი და ტექნიკურად სრულყოფილი.",
     "portfolio": {
       "title": "პორტფოლიო",
       "lead": "არჩეული პროექტების ჩვენება.",
