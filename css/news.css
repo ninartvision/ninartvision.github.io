@@ -88,3 +88,31 @@ body {
   font-size: 22px;
   color: #dabc6a;
 }
+/* ===== Mobile Fix ===== */
+
+@media (max-width: 768px) {
+
+  .blog-section {
+    margin: 100px 20px 60px;
+    padding: 25px;
+  }
+
+  .news-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .news-date {
+    margin-bottom: 10px;
+  }
+
+  .news-content {
+    padding: 0;
+  }
+
+  .news-arrow {
+    align-self: flex-end;
+    margin-top: 15px;
+  }
+
+}
