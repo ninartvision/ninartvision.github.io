@@ -1,5 +1,6 @@
 {
   "en": {
+    
     "nav": { "home": "Home", "about": "About", "services": "Services", "portfolio": "Portfolio", "contact": "Contact" },
     "footer": { "copyright": "© 2026 WebStudio. All rights reserved." },
     "logo": { "alt": "Ninart Vision logo" },

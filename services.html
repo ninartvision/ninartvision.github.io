@@ -11,11 +11,13 @@
   <meta name="description" content="Services offered: Website development, UI/UX, SEO and more." />
 </head>
 <body>
+<!-- HEADER -->
 <header>
   <nav>
     <a href="index.html" class="logo">
       <img src="images/logo.png" alt="Ninart Vision logo">
     </a>
+
     <ul id="navLinks" class="nav-links">
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
@@ -24,12 +26,32 @@
       <li><a href="news.html">News</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
-    
-    <div class="menu-toggle" id="menuToggle">
-  <span></span>
-  <span></span>
-  <span></span>
-</div>
+
+    <div class="nav-controls">
+      <div class="lang-dropdown">
+        <button class="lang-current" id="langToggle">
+          <img src="images/georgia.png" alt="GE">
+          <span class="lang-text">KA</span>
+          <span class="arrow">▾</span>
+        </button>
+
+        <ul class="lang-menu" id="langMenu">
+          <li data-lang="ka">
+            <img src="images/georgia.png" alt=""> KA
+          </li>
+          <li data-lang="en">
+            <img src="images/america.png" alt=""> EN
+          </li>
+        </ul>
+      </div>
+
+      <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
   </nav>
 </header>
 <main>
@@ -41,109 +63,128 @@
       </p>
       <div class="services-list">
         <!-- Website -->
-        <article class="service-card">
-          <div class="card-image">
-            <img src="images/services/services1.png" alt="Website Development">
-          </div>
-          <div class="card-body">
-            <h3>ვებსაიტის შექმნა</h3>
-            <p>ინდივიდუალურად კოდირებული, responsive და სწრაფი ვებსაიტები.</p>
-            <a class="card-btn" href="services/web.html">Learn More</a>
-          </div>
-        </article>
+<article class="service-card">
+  <div class="card-image">
+    <img src="images/services/services1.png" alt="Website Development">
+  </div>
+  <div class="card-body">
+    <h3 data-key="service_web_title">ვებსაიტის შექმნა</h3>
+    <p data-key="service_web_desc">
+      ინდივიდუალურად კოდირებული, responsive და სწრაფი ვებსაიტები.
+    </p>
+    <a class="card-btn" href="services/web.html" data-key="learn_more">Learn More</a>
+  </div>
+</article>
 
-        <!-- UI/UX -->
-        <article class="service-card">
-          <div class="card-image">
-            <img src="images/services/services2.png" alt="UI/UX Design">
-          </div>
-          <div class="card-body">
-            <h3>UI/UX დიზაინი</h3>
-            <p>მომხმარებელზე ორიენტირებული თანამედროვე ინტერფეისის დიზაინი.</p>
-            <a class="card-btn" href="services/uiuxdesign.html">Learn More</a>
-          </div>
-        </article>
+<!-- UI/UX -->
+<article class="service-card">
+  <div class="card-image">
+    <img src="images/services/services2.png" alt="UI/UX Design">
+  </div>
+  <div class="card-body">
+    <h3 data-key="service_ui_title">UI/UX დიზაინი</h3>
+    <p data-key="service_ui_desc">
+      მომხმარებელზე ორიენტირებული თანამედროვე ინტერფეისის დიზაინი.
+    </p>
+    <a class="card-btn" href="services/uiuxdesign.html" data-key="learn_more">Learn More</a>
+  </div>
+</article>
 
-        <!-- Logo -->
-        <article class="service-card">
-          <div class="card-image">
-            <img src="images/services/services3.png" alt="Logo Design">
-          </div>
-          <div class="card-body">
-            <h3>ლოგოს შექმნა</h3>
-            <p>უნიკალური და დასამახსოვრებელი ბრენდის იდენტობა.</p>
-            <a class="card-btn" href="services/logo.html">Learn More</a>
-          </div>
-        </article>
+<!-- Logo -->
+<article class="service-card">
+  <div class="card-image">
+    <img src="images/services/services3.png" alt="Logo Design">
+  </div>
+  <div class="card-body">
+    <h3 data-key="service_logo_title">ლოგოს შექმნა</h3>
+    <p data-key="service_logo_desc">
+      უნიკალური და დასამახსოვრებელი ბრენდის იდენტობა.
+    </p>
+    <a class="card-btn" href="services/logo.html" data-key="learn_more">Learn More</a>
+  </div>
+</article>
 
-        <!-- Google Analytics -->
-        <article class="service-card">
-          <div class="card-image">
-            <img src="images/services/services4.png" alt="Google Analytics Integration">
-          </div>
-          <div class="card-body">
-            <h3>Google Analytics ინტეგრაცია</h3>
-            <p>ტრეფიკის მონიტორინგი და მონაცემების ანალიზი.</p>
-            <a class="card-btn" href="services/googleanalytics.html">Learn More</a>
-          </div>
-        </article>
+<!-- Google Analytics -->
+<article class="service-card">
+  <div class="card-image">
+    <img src="images/services/services4.png" alt="Google Analytics Integration">
+  </div>
+  <div class="card-body">
+    <h3 data-key="service_ga_title">Google Analytics ინტეგრაცია</h3>
+    <p data-key="service_ga_desc">
+      ტრეფიკის მონიტორინგი და მონაცემების ანალიზი.
+    </p>
+    <a class="card-btn" href="services/googleanalytics.html" data-key="learn_more">Learn More</a>
+  </div>
+</article>
 
-        <!-- SEO -->
-        <article class="service-card">
-          <div class="card-image">
-            <img src="images/services/services5.png" alt="SEO Optimization">
-          </div>
-          <div class="card-body">
-            <h3>SEO ოპტიმიზაცია</h3>
-            <p>საძიებო სისტემებში უკეთესი პოზიციონირება და ორგანული ზრდა.</p>
-            <a class="card-btn" href="services/seo.html">Learn More</a>
-          </div>
-        </article>
+<!-- SEO -->
+<article class="service-card">
+  <div class="card-image">
+    <img src="images/services/services5.png" alt="SEO Optimization">
+  </div>
+  <div class="card-body">
+    <h3 data-key="service_seo_title">SEO ოპტიმიზაცია</h3>
+    <p data-key="service_seo_desc">
+      საძიებო სისტემებში უკეთესი პოზიციონირება და ორგანული ზრდა.
+    </p>
+    <a class="card-btn" href="services/seo.html" data-key="learn_more">Learn More</a>
+  </div>
+</article>
 
-        <!-- Social Media -->
-        <article class="service-card">
-          <div class="card-image">
-            <img src="images/services/services6.png" alt="Social Media Management">
-          </div>
-          <div class="card-body">
-            <h3>სოციალური ქსელების გამართვა</h3>
-            <p>პროფესიონალური სოციალური მედიის სტრატეგია და გამართვა.</p>
-            <a class="card-btn" href="services/socialmedia.html">Learn More</a>
-          </div>
-        </article>
+<!-- Social Media -->
+<article class="service-card">
+  <div class="card-image">
+    <img src="images/services/services6.png" alt="Social Media Management">
+  </div>
+  <div class="card-body">
+    <h3 data-key="service_sm_title">სოციალური ქსელების გამართვა</h3>
+    <p data-key="service_sm_desc">
+      პროფესიონალური სოციალური მედიის სტრატეგია და გამართვა.
+    </p>
+    <a class="card-btn" href="services/socialmedia.html" data-key="learn_more">Learn More</a>
+  </div>
+</article>
 
-        <!-- Meta Ads -->
-        <article class="service-card">
-          <div class="card-image">
-            <img src="images/services/services7.png" alt="Meta & Ads Manager">
-          </div>
-          <div class="card-body">
-            <h3>Meta & Ads Manager რეკლამები</h3>
-            <p>სარეკლამო კამპანიების დაგეგმვა და ოპტიმიზაცია.</p>
-            <a class="card-btn" href="services/adsmenager.html">Learn More</a>
-          </div>
-        </article>
+<!-- Meta Ads -->
+<article class="service-card">
+  <div class="card-image">
+    <img src="images/services/services7.png" alt="Meta & Ads Manager">
+  </div>
+  <div class="card-body">
+    <h3 data-key="service_ads_title">Meta & Ads Manager რეკლამები</h3>
+    <p data-key="service_ads_desc">
+      სარეკლამო კამპანიების დაგეგმვა და ოპტიმიზაცია.
+    </p>
+    <a class="card-btn" href="services/adsmenager.html" data-key="learn_more">Learn More</a>
+  </div>
+</article>
 
-        <!-- Video Editing -->
-        <article class="service-card">
-          <div class="card-image">
-            <img src="images/services/services8.png" alt="Video Editing">
-          </div>
-          <div class="card-body">
-            <h3>ვიდეო მონტაჟი</h3>
-            <p>ვიდეო კონტენტის შექმნა და რედაქტირება.</p>
-            <a class="card-btn" href="services/videoediting.html">Learn More</a>
-          </div>
-        </article>
+<!-- Video Editing -->
+<article class="service-card">
+  <div class="card-image">
+    <img src="images/services/services8.png" alt="Video Editing">
+  </div>
+  <div class="card-body">
+    <h3 data-key="service_video_title">ვიდეო მონტაჟი</h3>
+    <p data-key="service_video_desc">
+      ვიდეო კონტენტის შექმნა და რედაქტირება.
+    </p>
+    <a class="card-btn" href="services/videoediting.html" data-key="learn_more">Learn More</a>
+  </div>
+</article>
+
 
         </div>
     </div>
   </section>
 </main>
 <footer>
-  <p>© 2026 WebStudio. All rights reserved.</p>
+  <p>© 2026 Ninart Vision. All rights reserved..</p>
 </footer>
 <script src="main.js" defer></script>
+</body>
+
 <script>
 document.addEventListener("DOMContentLoaded", function() {
 

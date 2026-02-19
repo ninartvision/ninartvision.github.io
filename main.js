@@ -7,6 +7,34 @@ document.addEventListener("DOMContentLoaded", () => {
   // Default inline translations (fallback). Keys are looked up via data-key attributes.
   const defaultTranslations = {
     en: {
+          services_title: "Services",
+services_desc: "Overview of services offered. Explore each area to learn more.",
+
+service_web_title: "Website Development",
+service_web_desc: "Custom-coded, responsive and fast websites.",
+
+service_ui_title: "UI/UX Design",
+service_ui_desc: "User-focused modern interface design.",
+
+service_logo_title: "Logo Design",
+service_logo_desc: "Unique and memorable brand identity.",
+
+service_ga_title: "Google Analytics Integration",
+service_ga_desc: "Traffic monitoring and data analysis.",
+
+service_seo_title: "SEO Optimization",
+service_seo_desc: "Better search engine ranking and organic growth.",
+
+service_sm_title: "Social Media Management",
+service_sm_desc: "Professional social media strategy and setup.",
+
+service_ads_title: "Meta & Ads Manager Campaigns",
+service_ads_desc: "Advertising campaign planning and optimization.",
+
+service_video_title: "Video Editing",
+service_video_desc: "Video content creation and editing.",
+
+learn_more: "Learn More",
       hero1: "Full Digital",
       hero2: "Management",
       hero3: "for Small",
@@ -88,6 +116,35 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     },
     ka: {
+      services_title: "სერვისები",
+services_desc: "სერვისების მიმოხილვა. დაათვალიერეთ თითოეული მიმართულება.",
+
+service_web_title: "ვებსაიტის შექმნა",
+service_web_desc: "ინდივიდუალურად კოდირებული, responsive და სწრაფი ვებსაიტები.",
+
+service_ui_title: "UI/UX დიზაინი",
+service_ui_desc: "მომხმარებელზე ორიენტირებული თანამედროვე ინტერფეისის დიზაინი.",
+
+service_logo_title: "ლოგოს შექმნა",
+service_logo_desc: "უნიკალური და დასამახსოვრებელი ბრენდის იდენტობა.",
+
+service_ga_title: "Google Analytics ინტეგრაცია",
+service_ga_desc: "ტრეფიკის მონიტორინგი და მონაცემების ანალიზი.",
+
+service_seo_title: "SEO ოპტიმიზაცია",
+service_seo_desc: "საძიებო სისტემებში უკეთესი პოზიციონირება და ორგანული ზრდა.",
+
+service_sm_title: "სოციალური ქსელების გამართვა",
+service_sm_desc: "პროფესიონალური სოციალური მედიის სტრატეგია და გამართვა.",
+
+service_ads_title: "Meta & Ads Manager რეკლამები",
+service_ads_desc: "სარეკლამო კამპანიების დაგეგმვა და ოპტიმიზაცია.",
+
+service_video_title: "ვიდეო მონტაჟი",
+service_video_desc: "ვიდეო კონტენტის შექმნა და რედაქტირება.",
+
+learn_more: "გაიგე მეტი",
+
       hero1: "ბიზნესის სრული",
       hero2: "ციფრული განვითარება",
       hero3: "",

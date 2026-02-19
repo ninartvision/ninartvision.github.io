@@ -572,7 +572,7 @@ header > nav {
 .calc-summary { padding:14px; background: linear-gradient(180deg,#071018,#081219); border-radius:8px; border:1px solid rgba(255,255,255,0.03); }
 .price { font-size:1.6rem; font-weight:800; color:#bfe9ff; margin-bottom:6px }
 .summary-list { font-size:0.95rem; color:#c9d9e8; margin-bottom:12px; text-align:left }
-.calc-cta { display:flex; gap:10px; justify-content:flex-end }
+
 .btn.primary { background: linear-gradient(90deg,#5b7bff,#00d4ff); color:#061122; padding:10px 14px; border-radius:8px; text-decoration:none }
 .btn.ghost { background:transparent; border:1px solid rgba(255,255,255,0.06); color:#cfe6ff; padding:10px 14px; border-radius:8px; text-decoration:none }
 
