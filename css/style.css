@@ -1987,3 +1987,36 @@ header > nav,
   line-height: 1.6;
   color: rgba(255,255,255,0.85);
 }
+.news-title {
+  margin: 0;                 /* ზედმეტი დაშორების მოხსნა */
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  animation: fadeIn 1.2s ease forwards;
+}
+
+.news-title::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: #00bfff;
+  margin: 10px auto 40px;
+  border-radius: 3px;
+}
+
+/* Fade animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
