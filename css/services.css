@@ -116,7 +116,7 @@ body {
 }
 
 .process-item h4 {
-  color: #e6c66f;
+  color: #ffde85;
   margin-bottom: 12px;
   font-weight: 600;
 }
@@ -160,7 +160,7 @@ body {
   width: 100%;
   background: transparent;
   border: none;
-  color: #c9a94f;
+  color: #ebc96d;
   font-size: 16px;
   text-align: left;
   padding: 16px 0;
@@ -204,4 +204,60 @@ body {
   .services-blog h1 {
     font-size: 1.4rem;
   }
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  width: 25px;
+  height: 2px;
+  background: #ffffff;
+}
+
+@media (max-width: 768px) {
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 0;
+    left: -260px;
+    width: 260px;
+    height: 100vh;
+    background: #000;
+    flex-direction: column;
+    padding-top: 100px;
+    transition: left 0.3s ease;
+  }
+
+  .nav-links.active {
+    left: 0;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .nav-links {
+    position: fixed !important;
+    top: 0 !important;
+    left: -260px !important;
+    right: auto !important;
+  }
+
+  .nav-links.active {
+    left: 0 !important;
+  }
+
 }

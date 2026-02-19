@@ -190,6 +190,97 @@
   </div>
 </section>
 
+<!-- NEWS SECTION -->
+<section class="home-news">
+  <div class="container">
+
+    <h2 class="news-title">News</h2>
+
+    <div class="news-accordion">
+
+      <!-- სტატია 1 -->
+      <div class="news-item">
+        <button class="news-header">
+          <div class="news-text">
+            <span>24 / 01 / 2026</span>
+            <h3>რატომ ჯობია ხელით დაწერილი კოდი შაბლონს?</h3>
+          </div>
+          <span class="news-icon">⌄</span>
+        </button>
+        <div class="news-content">
+          <p>
+            ხელით დაწერილი ვებსაიტი გაძლევთ სრულ თავისუფლებას დიზაინში.
+            არ გაქვთ შეზღუდვები, არ ხართ დამოკიდებული პლატფორმაზე და
+            არ იხდით ყოველთვიურ გადასახადებს.
+          </p>
+          <p>
+            ✔ უნიკალური დიზაინი<br>
+            ✔ მაღალი სისწრაფე და SEO ოპტიმიზაცია<br>
+            ✔ არანაირი ყოველთვიური გადასახადი<br>
+            ✔ სრული კონტროლი თქვენს პროექტზე
+          </p>
+          <a href="services/web.html" class="news-link">ვრცლად →</a>
+
+        </div>
+      </div>
+
+      <!-- სტატია 2 -->
+      <div class="news-item">
+        <button class="news-header">
+          <div class="news-text">
+            <span>04 / 12 / 2025</span>
+            <h3>რატომ არის თანამედროვე ვებსაიტი ბიზნესისთვის აუცილებელი?</h3>
+          </div>
+          <span class="news-icon">⌄</span>
+        </button>
+        <div class="news-content">
+          <p>
+            დღევანდელ სამყაროში მომხმარებელი პირველად ონლაინ გეძებთ.
+            პროფესიონალური ვებსაიტი ზრდის ნდობას, აუმჯობესებს იმიჯს
+            და პირდაპირ გავლენას ახდენს გაყიდვებზე.
+          </p>
+          <p>
+            სწორი სტრუქტურა, სწრაფი ჩატვირთვა და მობილურზე მორგებული დიზაინი
+            წარმატების მთავარი ფაქტორებია.
+          </p>
+          <a href="services/web.html" class="news-link">ვრცლად →</a>
+
+        </div>
+      </div>
+
+      <!-- სტატია 3 -->
+      <div class="news-item">
+        <button class="news-header">
+          <div class="news-text">
+            <span>02 / 10 / 2025</span>
+            <h3>როგორ ზრდის SEO ოპტიმიზაცია თქვენი საიტის ვიზიტორებს?</h3>
+          </div>
+          <span class="news-icon">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+    <path d="M8 10l4 4 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+</span>
+
+        </button>
+        <div class="news-content">
+          <p>
+            SEO ოპტიმიზაცია ეხმარება თქვენს საიტს Google-ის ძიებაში
+            მაღალ პოზიციაზე გამოჩნდეს.
+          </p>
+          <p>
+            სწორად შერჩეული საკვანძო სიტყვები, ტექნიკური სისწორე
+            და ხარისხიანი კონტენტი ზრდის ორგანულ ტრაფიკს
+            და მოგიყვანთ რეალურ კლიენტებს.
+          </p>
+          <a href="services/web.html" class="news-link">ვრცლად →</a>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
 
 
@@ -343,6 +434,28 @@ window.addEventListener("load", function() {
   }
 
 });
+</script>
+
+<script>
+  document.querySelectorAll(".news-header").forEach(btn => {
+    btn.addEventListener("click", () => {
+
+      const content = btn.nextElementSibling;
+      const icon = btn.querySelector(".news-icon");
+      const isOpen = content.style.maxHeight;
+
+      document.querySelectorAll(".news-content")
+        .forEach(el => el.style.maxHeight = null);
+
+      document.querySelectorAll(".news-icon")
+        .forEach(i => i.style.transform = "rotate(0deg)");
+
+      if (!isOpen) {
+        content.style.maxHeight = content.scrollHeight + "px";
+        icon.style.transform = "rotate(180deg)";
+      }
+    });
+  });
 </script>
 
 

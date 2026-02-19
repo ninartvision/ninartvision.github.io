@@ -1882,3 +1882,104 @@ header > nav,
 .social-icons a {
   text-decoration: none !important;
 }
+.service-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  transition: 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  cursor: pointer;
+}
+.home-news {
+  padding: 80px 0;
+}
+
+.news-item {
+  margin-bottom: 35px;
+  border-radius: 20px;
+  padding: 30px;
+
+  background: rgba(255,255,255,0.04);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  border: 1px solid rgba(255,255,255,0.07);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.7);
+
+  transition: 0.3s ease;
+}
+
+.news-item:hover {
+  transform: translateY(-4px);
+  background: rgba(255,255,255,0.06);
+}
+
+/* ❗ button reset მთლიანად */
+.news-header {
+  all: unset;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+  color: #fff;
+}
+
+.news-text span {
+  font-size: 13px;
+  opacity: 0.5;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.news-text h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+
+  background: linear-gradient(90deg, #ffe7a6, #f3da87);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.news-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d4af37;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0.8;
+}
+
+.news-header:hover .news-icon {
+  opacity: 1;
+  transform: translateY(2px);
+}
+
+
+.news-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  margin-top: 15px;
+}
+
+.news-link {
+  display: inline-block;
+  margin-top: 12px;
+  color: #4da6ff;
+  text-decoration: none;
+}
+.news-title {
+  margin-bottom: 25px; /* ადრე უფრო დიდი იყო */
+  margin-top: -20px;   /* ოდნავ ზემოთ აწევა */
+}
+.news-content p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.85);
+}

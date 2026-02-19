@@ -23,6 +23,11 @@
       <li><a href="portfolio.html">Portfolio</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
+    <div class="menu-toggle" id="menuToggle">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
   </nav>
 </header>
 <main>
@@ -137,5 +142,21 @@
   <p>© 2026 WebStudio. All rights reserved.</p>
 </footer>
 <script src="main.js" defer></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+
+  const menuToggle = document.getElementById("menuToggle");
+  const navLinks = document.getElementById("navLinks");
+
+  if (menuToggle && navLinks) {
+    menuToggle.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+    });
+  }
+
+});
+</script>
+
+
 </body>
 </html>
