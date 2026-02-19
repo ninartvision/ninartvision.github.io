@@ -1,7 +1,7 @@
 {
   "en": {
     
-    "nav": { "home": "Home", "about": "About", "services": "Services", "portfolio": "Portfolio", "contact": "Contact" },
+    "nav": { "home": "Home", "about": "About", "services": "Services", "portfolio": "Portfolio", "news": "News","contact": "Contact" },
     "footer": { "copyright": "© 2026 WebStudio. All rights reserved." },
     "logo": { "alt": "Ninart Vision logo" },
     "icon": { "about": "About Me", "projects": "Projects" },
@@ -68,8 +68,7 @@
     "service6": "Social media setup",
     "service7": "Meta & Ads Manager campaigns",
     "service8": "Video editing",
-    "aboutTitle": "About Me",
-"aboutIntro": "I'm Nini Mzhavia — a Full Digital Support specialist. I provide end-to-end digital services for small and medium businesses.",
+    
 "aboutEnd": "My goal is for every project to be strategically planned, visually attractive and technically flawless.",
 
     "portfolio": {
@@ -98,7 +97,7 @@
     }
   },
   "ka": {
-    "nav": { "home": "მთავარი", "about": "ჩემ შესახებ", "services": "სერვისები", "portfolio": "პორტფოლიო", "contact": "კონტაქტი" },
+    "nav": { "home": "მთავარი", "about": "ჩემ შესახებ", "services": "სერვისები", "portfolio": "პორტფოლიო",  "news": "სიახლეები","contact": "კონტაქტი" },
     "footer": { "copyright": "© 2026 WebStudio. ყველა უფლება დაცულია." },
     "logo": { "alt": "Ninart Vision ლოგო" },
     "icon": { "about": "ჩემ შესახებ", "projects": "პროექტები" },
@@ -165,6 +164,8 @@
     "service6": "სოციალური ქსელების გამართვა",
     "service7": "Meta & Ads Manager რეკლამები",
     "service8": "ვიდეო მონტაჟი",
+    "aboutTitle_2": "About Me",
+    "aboutIntro_2": "მე ვარ ნინი მჟავია — Full Digital Support სპეციალისტი. ვთავაზობთ სრულ ციფრულ მომსახურებას მცირე და საშუალო ბიზნესებისთვის.",
     "aboutEnd": "ჩემი მიზანია თითოეული პროექტი იყოს სტრატეგიულად დაგეგმილი, ვიზუალურად მიმზიდველი და ტექნიკურად სრულყოფილი.",
     "portfolio": {
       "title": "პორტფოლიო",

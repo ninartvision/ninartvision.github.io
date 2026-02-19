@@ -1940,8 +1940,12 @@ header > nav,
   font-size: 18px;
   font-weight: 600;
 
-  background: linear-gradient(90deg, #ffe7a6, #f3da87);
+  background: linear-gradient(90deg, #f5daa9, #f5daa9);
+
+  background-clip: text;
   -webkit-background-clip: text;
+
+  color: transparent;
   -webkit-text-fill-color: transparent;
 }
 
