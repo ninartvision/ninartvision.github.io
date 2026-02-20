@@ -238,7 +238,7 @@
 /* GRID */
 .projects-section {
   padding: 20px 20px 120px;
-  margin-top: -550px; /* grid აიწევს hero-სთან ახლოს */
+  margin-top: -750px; /* grid აიწევს hero-სთან ახლოს */
   position: relative;
   z-index: 3;
 }
